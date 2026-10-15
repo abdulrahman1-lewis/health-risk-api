@@ -1,0 +1,18 @@
+{
+  "name": "health-risk-api",
+  "version": "1.0.0",
+  "description": "Health Insurance, Inc. risk calculator API (Node.js + Express). All calculation and validation lives here.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
